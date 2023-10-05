@@ -1,0 +1,7 @@
+import React from "react";
+
+const PageLayout = ({ children }) => {
+  return <div className="flex flex-col gap-5">{children}</div>;
+};
+
+export default PageLayout;
